@@ -1,0 +1,6 @@
+<div class="greeting">
+  <h1>{{ title }}</h1>
+  <p *ngIf="userName">Bienvenue, {{ userName }} !</p>
+  <button (click)="onButtonClick()">Cliquer ici</button>
+  <p *ngIf="clickCount > 0">Nombre de clics : {{ clickCount }}</p>
+</div>
